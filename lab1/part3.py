@@ -16,8 +16,7 @@ for i in range(len(matrix)):
     average_numbers[i] = reduce(
         lambda n1, n2: n1+n2,
         matrix[i])/len(matrix[i])
-print(f'array of avefage numbers of matrix: {average_numbers}')
-
+print(f'array of average numbers of matrix: {average_numbers}')
 
 difference_matrix = [[0]*row_length for i in range(column_length)]
 for i in range(len(matrix)):
