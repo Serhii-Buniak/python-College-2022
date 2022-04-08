@@ -36,10 +36,6 @@ class File:
 
 
 myfile = File('mydata.txt')
-myfile.write('hgfh432')
+myfile.write('21352')
 
-info = myfile.read()
-
-myfile.copy('werw.txt')
-
-print(f'info: {info}')
+myfile.rename('tre.txt')
